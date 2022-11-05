@@ -2,7 +2,6 @@
   <div>
     <app-nav />
     <h1>Component Test</h1>
-    여기는 body 영역
     <app-footer />
   </div>
 </template>
