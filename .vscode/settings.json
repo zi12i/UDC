@@ -4,7 +4,13 @@
     ],
     "eslint.alwaysShowStatus": true,
     "editor.codeActionsOnSave": {
+
       "source.fixAll.eslint": true
     },
     "editor.tabSize": 2,
+    "eslint.workingDirectories": [
+
+      {"mode": "auto"}
+      
+      ],      
   }
