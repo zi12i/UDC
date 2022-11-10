@@ -25,10 +25,14 @@
         <div class="bestTopics">토픽베스트</div>
         <!-- 기본 다른 게시판들 -->
         <div>
-          <div>카테고리 1</div>
-          <div>카테고리 2</div>
-          <div>카테고리 3</div>
-          <div>카테고리 4</div>
+          <b-row>
+            <b-col cols="6" class="category">카테고리 1</b-col>
+            <b-col cols="6" class="category">카테고리 2</b-col>
+          </b-row>
+          <b-row>
+            <b-col cols="6" class="category">카테고리 3</b-col>
+            <b-col cols="6" class="category">카테고리 4</b-col>
+          </b-row>
         </div>
       </b-col>
       <!-- 오른쪽 상자 -->
@@ -76,6 +80,10 @@ export default {
 }
 .bestTopics {
   width: 80%;
+  background-color: antiquewhite;
+}
+.category {
+  width: 90%;
   background-color: antiquewhite;
 }
 </style>
