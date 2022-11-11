@@ -24,7 +24,7 @@
         <!-- 베스트 -->
         <div class="bestTopics">토픽베스트</div>
         <!-- 기본 다른 게시판들 -->
-        <div>
+        <b-container>
           <b-row>
             <b-col cols="6" class="category">카테고리 1</b-col>
             <b-col cols="6" class="category">카테고리 2</b-col>
@@ -33,7 +33,7 @@
             <b-col cols="6" class="category">카테고리 3</b-col>
             <b-col cols="6" class="category">카테고리 4</b-col>
           </b-row>
-        </div>
+        </b-container>
       </b-col>
       <!-- 오른쪽 상자 -->
       <b-col cols="3">
@@ -79,11 +79,15 @@ export default {
   border-radius: 30px;
 }
 .bestTopics {
-  width: 80%;
+  width: 100%;
+  padding: 10px;
+  height: 400px;
   background-color: antiquewhite;
 }
 .category {
-  width: 90%;
+  width: 100%;
+  padding: 10px;
+  height: 300px;
   background-color: antiquewhite;
 }
 </style>
