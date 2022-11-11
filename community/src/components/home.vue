@@ -8,17 +8,12 @@
         <!-- 검색창 -->
         <div class="mt-5 ml-5 mr-2">
           <div>
-            <b-input-group>
-              <v-text-field
-                :append-icon="marker ? 'mdi-magnify' : 'mdi-magnify'"
-                solo
-                rounded
-                label="검색하실 내용을 입력해 주세요!"
-                type="text"
-                @click:append="sendMessage"
-                @click:prepend="changeIcon"
-              ></v-text-field>
-            </b-input-group>
+            <div class="searchBar">
+              <button>
+                <b-icon icon="exclamation-circle-fill" variant="success"></b-icon>
+              </button>
+            </div>
+            <div></div>
           </div>
         </div>
         <!-- 베스트 -->
@@ -54,15 +49,6 @@ export default {
   components: {
     'app-nav': Nav,
     'app-footer': Footer
-  },
-  toggleMarker() {
-    this.marker = !this.marker
-  },
-  sendMessage() {
-    this.clearMessage()
-  },
-  clearMessage() {
-    this.message = ''
   }
 }
 </script>
@@ -73,10 +59,11 @@ export default {
   background-color: antiquewhite;
 }
 .searchBar {
-  width: 80%;
+  width: 100%;
   border: solid;
   height: 55px;
   border-radius: 30px;
+  margin-bottom: 10px;
 }
 .bestTopics {
   width: 100%;
