@@ -17,7 +17,16 @@
           </div>
         </div>
         <!-- 베스트 -->
-        <div class="bestTopics">토픽베스트</div>
+        <div class="bestTopics mt-5">
+          <div class="row justify-content-between mb-2">
+            <span class="ml-3 mt-2 topicHeader"><b-icon-clipboard></b-icon-clipboard>토픽베스트</span>
+            <button class="mr-3 mt-2">더보기 ></button>
+          </div>
+          <hr />
+          <div>
+            <div><p>토픽명 글 제목 좋아요 수 댓글 수 표시 예정</p></div>
+          </div>
+        </div>
         <!-- 기본 다른 게시판들 -->
         <b-container>
           <b-row>
@@ -74,11 +83,18 @@ export default {
   width: 600px;
   height: 100%;
 }
+.searchInput:focus {
+  outline: none;
+}
+.topicHeader {
+  font-weight: bold;
+  font-size: 20px;
+}
 .bestTopics {
   width: 100%;
   padding: 10px;
   height: 400px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 .category {
   width: 100%;
