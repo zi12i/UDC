@@ -30,12 +30,48 @@
         <!-- 기본 다른 게시판들 -->
         <b-container>
           <b-row>
-            <b-col cols="6" class="category">카테고리 1</b-col>
-            <b-col cols="6" class="category">카테고리 2</b-col>
+            <b-col cols="6" class="category">
+              <div class="row justify-content-between mb-2">
+                <span class="ml-3 mt-2 topicHeader"><b-icon-clipboard></b-icon-clipboard>카테고리 1</span>
+                <button class="mr-3 mt-2">더보기 ></button>
+              </div>
+              <hr />
+              <div>
+                <div><p>토픽명 글 제목 좋아요 수 댓글 수 표시 예정</p></div>
+              </div>
+            </b-col>
+            <b-col cols="6" class="category">
+              <div class="row justify-content-between mb-2">
+                <span class="ml-3 mt-2 topicHeader"><b-icon-clipboard></b-icon-clipboard>카테고리 2</span>
+                <button class="mr-3 mt-2">더보기 ></button>
+              </div>
+              <hr />
+              <div>
+                <div><p>토픽명 글 제목 좋아요 수 댓글 수 표시 예정</p></div>
+              </div>
+            </b-col>
           </b-row>
           <b-row>
-            <b-col cols="6" class="category">카테고리 3</b-col>
-            <b-col cols="6" class="category">카테고리 4</b-col>
+            <b-col cols="6" class="category">
+              <div class="row justify-content-between mb-2">
+                <span class="ml-3 mt-2 topicHeader"><b-icon-clipboard></b-icon-clipboard>카테고리 3</span>
+                <button class="mr-3 mt-2">더보기 ></button>
+              </div>
+              <hr />
+              <div>
+                <div><p>토픽명 글 제목 좋아요 수 댓글 수 표시 예정</p></div>
+              </div>
+            </b-col>
+            <b-col cols="6" class="category">
+              <div class="row justify-content-between mb-2">
+                <span class="ml-3 mt-2 topicHeader"><b-icon-clipboard></b-icon-clipboard>카테고리 4</span>
+                <button class="mr-3 mt-2">더보기 ></button>
+              </div>
+              <hr />
+              <div>
+                <div><p>토픽명 글 제목 좋아요 수 댓글 수 표시 예정</p></div>
+              </div>
+            </b-col>
           </b-row>
         </b-container>
       </b-col>
@@ -100,6 +136,6 @@ export default {
   width: 100%;
   padding: 10px;
   height: 300px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 </style>
