@@ -6,14 +6,14 @@
       <b-col cols="1"> </b-col>
       <b-col cols="7">
         <!-- 검색창 -->
-        <div class="mt-5 ml-5 mr-2">
+        <div class="mt-5 mr-2">
           <div>
             <div class="searchBar">
-              <button>
-                <b-icon icon="exclamation-circle-fill" variant="success"></b-icon>
-              </button>
+              <button class="searchIcon"><b-icon-search></b-icon-search></button>
+              <div>
+                <input type="text" class="searchInput" placeholder="검색하실 내용을 입력하세요!" />
+              </div>
             </div>
-            <div></div>
           </div>
         </div>
         <!-- 베스트 -->
@@ -60,10 +60,19 @@ export default {
 }
 .searchBar {
   width: 100%;
-  border: solid;
+  border: solid 2px;
   height: 55px;
   border-radius: 30px;
   margin-bottom: 10px;
+  display: flex;
+}
+.searchIcon {
+  width: 50px;
+  margin-left: 5px;
+}
+.searchInput {
+  width: 600px;
+  height: 100%;
 }
 .bestTopics {
   width: 100%;
