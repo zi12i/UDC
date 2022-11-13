@@ -5,14 +5,20 @@
         <b-col cols="1">유디씨 로고</b-col>
         <b-col cols="5">Ultimate Developers' Community</b-col>
         <b-col cols="2"></b-col>
-        <b-col cols="2" class="signinContainer"><button class="signinBtn">로그인</button></b-col>
+        <b-col cols="2" class="signinContainer"><button class="signinBtn" @click="signin">로그인</button></b-col>
       </b-row>
     </nav>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  methods: {
+    signin() {
+      this.$router.push('/signin')
+    }
+  }
+}
 </script>
 
 <style scoped>

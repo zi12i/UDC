@@ -9,25 +9,20 @@
           <input type="text" placeholder="아이디를 입력하세요" />
           <input type="password" placeholder="비밀번호를 입력하세요" />
           <button class="signinBtn">로그인</button>
-          <div class="checkboxContainer">
+          <span class="checkboxContainer">
             <label class="checkboxLabel"><input type="checkbox" class="checkBox" />로그인상태 유지하기</label>
-          </div>
+          </span>
         </div>
         <div class="buttonContainer">
           <div class="buttonOrganizer">
             <!-- 회원가입, 아디비번 찾기 버튼 -->
-            <router-link to="/" class="auth">회원가입</router-link> |
-            <router-link to="/about" class="auth">ID / PW 찾기</router-link> |
-            <router-link to="/about" class="auth">메인으로 돌아가기</router-link>
-            <!-- <button class="authBtn">회원가입</button>
-            <button class="authBtn">ID / PW 찾기</button> -->
+            <router-link to="/" class="auth">메인으로 돌아가기</router-link> |
+            <router-link to="/signup" class="auth">회원가입</router-link> |
+            <router-link to="/find" class="auth">ID / PW 찾기</router-link>
           </div>
         </div>
         <div>
-          <!-- 뒤로가기버튼 -->
-        </div>
-        <div>
-          <!-- footer 파트 -->
+          <app-footer />
         </div>
       </div>
     </div>
@@ -75,7 +70,7 @@ input {
   justify-content: center;
 }
 .buttonOrganizer {
-  margin-top: 30px;
+  margin-top: 50px;
   width: 400px;
   display: flex;
   justify-content: space-between;
@@ -89,16 +84,21 @@ input {
 }
 .checkboxContainer {
   width: 400px;
-  position: absolute;
+  display: inline-block;
+  /* position: absolute; */
   /* justify-content: center; */
 }
 .checkboxLabel {
-  /* justify-content: flex-start; */
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .checkBox {
   height: 20px;
   margin-top: 5px;
-  width: 55px;
+  padding: 0;
+  width: 20px;
 }
 .auth {
   text-decoration: none;
