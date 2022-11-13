@@ -101,7 +101,7 @@ export default {
 .popularPost {
   width: 90%;
   height: 400px;
-  background-color: antiquewhite;
+  background-color: RGB(248, 249, 250);
 }
 .searchBar {
   width: 100%;
