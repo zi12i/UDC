@@ -21,9 +21,9 @@
             <router-link to="/find" class="auth">ID / PW 찾기</router-link>
           </div>
         </div>
-        <div>
-          <app-footer />
-        </div>
+        <footer>
+          <span>COPYRIGHT COMPANY ALL RIGHTS RESERVED.</span>
+        </footer>
       </div>
     </div>
   </div>
@@ -42,7 +42,8 @@ export default {}
   height: 100%;
   min-height: 800px;
   width: 600px;
-  background-color: #eee;
+  border-left: solid 1px;
+  border-right: solid 1px;
 }
 .logoContainer {
   height: 200px;
@@ -56,11 +57,14 @@ input {
   margin-bottom: 5px;
   padding-left: 20px;
 }
+input:focus {
+  outline: none;
+}
 .signinBtn {
   width: 400px;
   height: 50px;
   margin-top: 10px;
-  background-color: navy;
+  background-color: orange;
   border-radius: 3px;
   color: white;
   font-size: 20px;
@@ -75,18 +79,9 @@ input {
   display: flex;
   justify-content: space-between;
 }
-.authBtn {
-  height: 50px;
-  width: 180px;
-  border-radius: 3px;
-  background-color: white;
-  color: navy;
-}
 .checkboxContainer {
   width: 400px;
   display: inline-block;
-  /* position: absolute; */
-  /* justify-content: center; */
 }
 .checkboxLabel {
   margin-top: 10px;
@@ -102,6 +97,10 @@ input {
 }
 .auth {
   text-decoration: none;
-  color: #888;
+  color: black;
+}
+footer {
+  margin-top: 30px;
+  height: 50px;
 }
 </style>
