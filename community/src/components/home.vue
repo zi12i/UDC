@@ -18,7 +18,7 @@
         </div>
         <!-- 베스트 -->
         <div class="bestTopics mt-5">
-          <div class="row justify-content-between mb-2">
+          <div class="headerContainer justify-content-between mb-2">
             <span class="ml-3 mt-2 topicHeader"><b-icon-clipboard></b-icon-clipboard>토픽베스트</span>
             <button class="mr-3 mt-2">더보기 ></button>
           </div>
@@ -31,7 +31,7 @@
         <b-container>
           <b-row>
             <b-col cols="6" class="category">
-              <div class="row justify-content-between mb-2">
+              <div class="headerContainer justify-content-between mb-2">
                 <span class="ml-3 mt-2 topicHeader"><b-icon-clipboard></b-icon-clipboard>카테고리 1</span>
                 <button class="mr-3 mt-2">더보기 ></button>
               </div>
@@ -41,7 +41,7 @@
               </div>
             </b-col>
             <b-col cols="6" class="category">
-              <div class="row justify-content-between mb-2">
+              <div class="headerContainer justify-content-between mb-2">
                 <span class="ml-3 mt-2 topicHeader"><b-icon-clipboard></b-icon-clipboard>카테고리 2</span>
                 <button class="mr-3 mt-2">더보기 ></button>
               </div>
@@ -53,7 +53,7 @@
           </b-row>
           <b-row>
             <b-col cols="6" class="category">
-              <div class="row justify-content-between mb-2">
+              <div class="headerContainer justify-content-between mb-2">
                 <span class="ml-3 mt-2 topicHeader"><b-icon-clipboard></b-icon-clipboard>카테고리 3</span>
                 <button class="mr-3 mt-2">더보기 ></button>
               </div>
@@ -63,7 +63,7 @@
               </div>
             </b-col>
             <b-col cols="6" class="category">
-              <div class="row justify-content-between mb-2">
+              <div class="headerContainer justify-content-between mb-2">
                 <span class="ml-3 mt-2 topicHeader"><b-icon-clipboard></b-icon-clipboard>카테고리 4</span>
                 <button class="mr-3 mt-2">더보기 ></button>
               </div>
@@ -99,7 +99,7 @@ export default {
 </script>
 <style scoped>
 .popularPost {
-  width: 90%;
+  width: 100%;
   height: 400px;
   background-color: RGB(248, 249, 250);
 }
@@ -121,6 +121,9 @@ export default {
 }
 .searchInput:focus {
   outline: none;
+}
+.headerContainer {
+  display: flex;
 }
 .topicHeader {
   font-weight: bold;

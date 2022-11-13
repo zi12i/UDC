@@ -8,17 +8,6 @@
         <b-col cols="2" class="signinContainer"><button class="signinBtn">로그인</button></b-col>
       </b-row>
     </nav>
-    <!-- <b-navbar toggleable="sm" type="light" variant="light">
-      <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
-
-      <b-navbar-brand>여기에페이지로고</b-navbar-brand>
-
-      <b-collapse id="nav-text-collapse" is-nav>
-        <b-navbar-nav>
-          <b-nav-text>Ultimate Developers' Community</b-nav-text>
-        </b-navbar-nav>
-      </b-collapse>
-    </b-navbar> -->
   </div>
 </template>
 
@@ -40,9 +29,9 @@ export default {}
 }
 .signinBtn {
   background-color: red;
-  border-radius: 5px;
+  border-radius: 3px;
   color: white;
   width: 80px;
-  height: 50px;
+  height: 40px;
 }
 </style>
