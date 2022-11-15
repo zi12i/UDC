@@ -13,7 +13,7 @@
           <div class="buttonOrganizer">
             <!-- 회원가입, 아디비번 찾기 버튼 -->
             <router-link to="/" class="auth">메인으로 돌아가기</router-link> |
-            <router-link to="/signup" class="auth">회원가입</router-link> |
+            <router-link to="/signin" class="auth">뒤로 가기</router-link> |
             <router-link to="/find" class="auth">ID / PW 찾기</router-link>
           </div>
         </div>
