@@ -6,6 +6,10 @@
           <!-- 여기는 로고 -->
         </div>
         <div>
+          <p>
+            인증 과정에서 사용하실<br />
+            이메일 주소를 입력해 주세요.
+          </p>
           <input type="text" placeholder="인증메일을 받으실 이메일 주소를 입력하세요" />
           <button class="signinBtn">인증메일 보내기</button>
         </div>
