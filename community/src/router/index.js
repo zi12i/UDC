@@ -32,6 +32,11 @@ const routes = [
     path: '/find',
     name: 'find',
     component: () => import('../views/auth/find.vue')
+  },
+  {
+    path: '/board',
+    name: 'board',
+    component: () => import('../views/board/boardList.vue')
   }
 ]
 
