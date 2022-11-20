@@ -4,15 +4,15 @@
     <div>
       <!-- 토픽바 -->
       <div class="categoryList">
-        <div>카테고리1</div>
-        <div>카테고리2</div>
-        <div>카테고리3</div>
-        <div>카테고리4</div>
-        <div>카테고리5</div>
-        <div>카테고리6</div>
+        <div class="category">카테고리1</div>
+        <div class="category">카테고리2</div>
+        <div class="category">카테고리3</div>
+        <div class="category">카테고리4</div>
+        <div class="category">카테고리5</div>
+        <div class="category">카테고리6</div>
       </div>
       <!-- 게시판 리스트  -->
-      <div></div>
+      <div class="boardContainer"></div>
     </div>
     <app-footer />
   </div>
@@ -34,5 +34,14 @@ export default {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+.category {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.boardContainer {
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
 }
 </style>
