@@ -87,7 +87,7 @@
           <a href="/auth/login" class="card-link">로그인창으로 돌아가기</a>
         </b-card-body>
 
-        <b-card-footer style="text-align: center">2022 My_Stamp &copy; All Rights Reserved.</b-card-footer>
+        <b-card-footer style="text-align: center">COPYRIGHT COMPANY ALL RIGHTS RESERVED.</b-card-footer>
       </b-card>
     </div>
   </div>
