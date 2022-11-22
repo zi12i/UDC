@@ -10,9 +10,13 @@
         <div class="category">카테고리4</div>
         <div class="category">카테고리5</div>
         <div class="category">카테고리6</div>
+        <hr />
       </div>
       <!-- 게시판 리스트  -->
-      <div class="boardContainer"></div>
+      <div class="boardContainer">
+        <!-- for문으로 게시글 수만큼 카드 반복???? -->
+        <app-board />
+      </div>
     </div>
     <app-footer />
   </div>
@@ -21,10 +25,12 @@
 <script>
 import commonNav from '@/components/commonNav.vue'
 import Footer from '@/components/Footer.vue'
+import boardCard from '@/components/boardCard.vue'
 export default {
   components: {
     'app-nav': commonNav,
-    'app-footer': Footer
+    'app-footer': Footer,
+    'app-board': boardCard
   }
 }
 </script>
@@ -34,6 +40,7 @@ export default {
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 .category {
   margin-left: 10px;
