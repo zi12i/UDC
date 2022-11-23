@@ -20,7 +20,7 @@ const routes = [
   },
   {
     path: '/auth',
-    component: () => import('../views/auth'),
+    component: () => import('../views/auth/signIn'),
     children: [
       {
         path: '/auth/signin',

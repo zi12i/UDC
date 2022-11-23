@@ -3,7 +3,6 @@
     <!-- v-show로 인증 메일 보내기 전 페이지 -->
     <div v-show="!emailSent">
       <b-card no-body class="join-box">
-        <h2><img class="logoImg" src="../../../public/logo.png" /></h2>
         <form @submit.prevent="handleSubmit(sendEmail)">
           <b-card-body style="text-align: center">
             <b-card-sub-title class="mt-3 mb-2">
@@ -45,7 +44,6 @@
     <!-- v-show로 인증메일 보낸 후 인증코드 입력할 페이지 -->
     <div v-show="emailSent">
       <b-card no-body class="join-box">
-        <h2><img class="logoImg" src="../../../public/logo.png" /></h2>
         <form @submit.prevent="handleSubmit(authCode)">
           <b-card-body style="text-align: center">
             <b-card-sub-title class="mt-3 mb-2">

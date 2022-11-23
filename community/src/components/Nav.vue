@@ -15,7 +15,7 @@
 export default {
   methods: {
     signin() {
-      this.$router.push('/signin')
+      this.$router.push('/auth/signin')
     }
   }
 }
