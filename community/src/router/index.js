@@ -19,20 +19,42 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
   },
   {
-    path: '/signin',
-    name: 'signin',
-    component: () => import('../views/auth/signIn.vue')
+    path: '/auth',
+    component: () => import('../views/auth'),
+    children: [
+      {
+        path: '/auth/signin',
+        component: () => import('../views/auth/signIn')
+      },
+      {
+        path: '/auth/signup',
+        component: () => import('../views/auth/mailAuth')
+      },
+      // {
+      //   path: '/auth/logout',
+      //   component: () => import('../views/auth/logout')
+      // },
+      {
+        path: '/auth/find',
+        component: () => import('../views/auth/find')
+      }
+    ]
   },
-  {
-    path: '/signup',
-    name: 'signup',
-    component: () => import('../views/auth/signUp.vue')
-  },
-  {
-    path: '/find',
-    name: 'find',
-    component: () => import('../views/auth/find.vue')
-  },
+  // {
+  //   path: '/signin',
+  //   name: 'signin',
+  //   component: () => import('../views/auth/signIn.vue')
+  // },
+  // {
+  //   path: '/signup',
+  //   name: 'signup',
+  //   component: () => import('../views/auth/signUp.vue')
+  // },
+  // {
+  //   path: '/find',
+  //   name: 'find',
+  //   component: () => import('../views/auth/find.vue')
+  // },
   {
     path: '/board',
     name: 'board',
