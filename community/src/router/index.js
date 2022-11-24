@@ -22,10 +22,10 @@ const routes = [
     path: '/auth',
     component: () => import('../views/auth/signIn'),
     children: [
-      {
-        path: '/auth/signin',
-        component: () => import('../views/auth/signIn')
-      },
+      // {
+      //   path: '/auth/signin',
+      //   component: () => import('../views/auth/signIn')
+      // },
       {
         path: '/auth/signup',
         component: () => import('../views/auth/mailAuth')
