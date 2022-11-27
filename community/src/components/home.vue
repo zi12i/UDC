@@ -77,7 +77,7 @@
       </b-col>
       <!-- 오른쪽 상자 -->
       <b-col cols="3">
-        <div class="mt-5 ml-2 popularPost">실시간 인기글</div>
+        <div class="mt-5 ml-2 pt-4 popularPost">실시간 인기글</div>
       </b-col>
       <b-col cols="1"> </b-col>
     </b-row>
