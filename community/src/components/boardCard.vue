@@ -1,8 +1,11 @@
 <template>
   <div class="cardContainer">
     <div class="card">
-      <h3>글제목</h3>
-      <p>글 내용</p>
+      <span class="category">카테고리</span>
+      <span class="heading">글제목</span>
+      <p class="content">글 내용</p>
+      <p class="nickname">닉네임?</p>
+      <span>조회 추천 기타등등</span>
     </div>
   </div>
 </template>
@@ -23,7 +26,25 @@ export default {}
 .card {
   width: 1000px;
   height: 150px;
-  padding-top: 30px;
+  padding-top: 10px;
   background-color: azure;
+}
+.category {
+  font-size: 9px;
+  text-align: left;
+  margin-left: 10px;
+}
+.heading {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 10px;
+}
+.content {
+  text-align: left;
+  margin-left: 10px;
+}
+.nickname {
+  text-align: left;
+  margin-left: 10px;
 }
 </style>
