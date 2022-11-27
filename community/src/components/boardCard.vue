@@ -5,7 +5,7 @@
       <span class="heading">글제목</span>
       <p class="content">글 내용</p>
       <p class="nickname">닉네임?</p>
-      <span>조회 추천 기타등등</span>
+      <span class="cardInfo">조회 추천 기타등등</span>
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {}
 <style scoped>
 .cardContainer {
   width: 100%;
-  height: 150px;
+  height: 180px;
   background-color: antiquewhite;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@ export default {}
 }
 .card {
   width: 1000px;
-  height: 150px;
+  height: 180px;
   padding-top: 10px;
   background-color: azure;
 }
