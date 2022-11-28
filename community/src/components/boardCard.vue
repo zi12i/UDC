@@ -17,7 +17,7 @@ export default {}
 <style scoped>
 .cardContainer {
   width: 100%;
-  height: 180px;
+  height: 200px;
   background-color: antiquewhite;
   display: flex;
   justify-content: center;
@@ -25,7 +25,7 @@ export default {}
 }
 .card {
   width: 1000px;
-  height: 180px;
+  height: 200px;
   padding-top: 10px;
   background-color: azure;
 }
