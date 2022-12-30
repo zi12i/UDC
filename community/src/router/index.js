@@ -40,11 +40,11 @@ const routes = [
       }
     ]
   },
-  // {
-  //   path: '/signin',
-  //   name: 'signin',
-  //   component: () => import('../views/auth/signIn.vue')
-  // },
+  {
+    path: '/signin',
+    name: 'signin',
+    component: () => import('../views/auth/signIn.vue')
+  },
   // {
   //   path: '/signup',
   //   name: 'signup',
