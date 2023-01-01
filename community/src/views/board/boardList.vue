@@ -7,9 +7,9 @@
         <div class="category ml-2">카테고리1</div>
         <div class="category ml-2">카테고리2</div>
         <div class="category ml-2">카테고리3</div>
-        <div class="category ml-2">카테고리4</div>
+        <!-- <div class="category ml-2">카테고리4</div>
         <div class="category ml-2">카테고리5</div>
-        <div class="category ml-2">카테고리6</div>
+        <div class="category ml-2">카테고리6</div> -->
         <hr />
       </div>
       <!-- 게시판 리스트  -->
